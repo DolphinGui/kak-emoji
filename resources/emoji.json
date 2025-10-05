@@ -1,5 +1,28 @@
 [
-  {
+{
+    "emoji": "§"
+  , "description": "section sign"
+  , "category": "Grammar"
+  , "aliases": [
+      "section"
+    ]
+  , "tags": [
+    ]
+  }
+,{
+    "emoji": "¶"
+  , "description": "Pilcrow sign"
+  , "category": "Grammar"
+  , "aliases": [
+      "pilcrow",
+      "paragraph"
+    ]
+  , "tags": [
+    ]
+  , "unicode_version": "6.0"
+  , "ios_version": "6.0"
+  }
+,  {
     "emoji": "😀"
   , "description": "grinning face"
   , "category": "Smileys & Emotion"
