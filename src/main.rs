@@ -18,7 +18,7 @@ define-command insert-text -params 1 -hidden %{
 }
 
 define-command -docstring "Prompt ot insert emojis" emoji-insert-prompt %{
-  prompt -shell-script-completion %{kak-emoji --list-names} "Emoji name:" %{
+  prompt -shell-script-candidates %{kak-emoji --list-names} "Emoji name:" %{
     insert-text %sh{ kak-emoji --emit $kak_text }
   }
 }
